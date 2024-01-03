@@ -12,7 +12,6 @@ formulario.addEventListener("submit", function (event) {
     }
 })
 
-
 function marcarCamposPreenchidosOuNao() {
     let indice = 0
     input.forEach(element => {
@@ -27,7 +26,6 @@ function marcarCamposPreenchidosOuNao() {
     });
 }
 
-
 function enviarOuNaoFormularioParaServidor() {
     for (let i = 0; i < input.length; i++) {
         if (input[i].value.length < 1) {
@@ -37,9 +35,3 @@ function enviarOuNaoFormularioParaServidor() {
     }
     return true
 }
-
-
-
-
-
-
